@@ -1,0 +1,25 @@
+.bigger {
+    font-size: 3em;
+}
+section {
+    min-height: 7vh;
+}
+.wrapper {
+    background-color: #9dbbf8;
+}
+.bigger {
+    font-size: 3em;
+    font-weight: bold;
+}
+.top-margin {
+    margin-top: 10vh;
+}
+.first-element {
+    min-height: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+    .top-margin {
+        margin-top: 2.5vh;
+    }
+}
